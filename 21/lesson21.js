@@ -41,3 +41,10 @@ console.log(hamburger === 3 && cola === 2 || fries === 3 && nuggets);
 
 // let johnReport, alexReport, samReport, mariaReport = 'done';
 // console.log(johnReport || alexReport || samReport || mariaReport);
+
+/*
+(ИЛИ ||) — возвращает первое truthy значение. Если все ложные — возвращает последнее falsy.
+Как только встречает истину, останавливается и возвращает её.
+(И &&) — возвращает первое falsy значение. Если все истинные — возвращает последнее truthy.
+Как только встречает ложь, останавливается и возвращает её.
+*/
